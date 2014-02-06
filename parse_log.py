@@ -8,7 +8,6 @@ if __name__=='__main__':
     args = parser.parse_args()
 
     df = pd.read_csv(args.file_name)
-    df.response_time += 100
     correct_RTs = df[(df.response == "space") & (df.trial_shape == "red_square")].response_time
     false_positive_RTs = df[(df.response == "space") & (df.trial_shape != "red_square")].response_time
     false_negative_RTs = df[(df.response != "space") & (df.trial_shape == "red_square")].response_time
