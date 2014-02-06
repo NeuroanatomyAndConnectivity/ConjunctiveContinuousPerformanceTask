@@ -1,0 +1,16 @@
+1. In the following experiment we will show you a series of shapes in different colours.
+(press any key)
+
+2. When you will see a red square press space as quickly as possible.
+
+3. This is how the red square looks like.
+
+4. We will start with a practice run. Press any key whenever you are ready. Remember to press space ONLY when you see a red square!
+
+5. This concludes the training phase.
+
+6. We will now start with the proper test. It will be longer and there will be no feedback. Remember to only press space when you see a red square.
+(press any key to start the test)
+
+7. Thank you for participating in our study!
+
