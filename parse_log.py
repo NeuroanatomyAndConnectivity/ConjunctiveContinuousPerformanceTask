@@ -27,16 +27,16 @@ if __name__=='__main__':
                                                              first_quartile_RTs.std())
 
     second_quartile_RTs = correct_RTs[(correct_RTs.index >= 80) & (correct_RTs.index < 160)]
-    print "First quartile (n = %d): mean = %g; stddev = %g"%(len(second_quartile_RTs),
+    print "Second quartile (n = %d): mean = %g; stddev = %g"%(len(second_quartile_RTs),
                                                              second_quartile_RTs.mean(),
                                                              second_quartile_RTs.std())
 
     third_quartile_RTs = correct_RTs[(correct_RTs.index >= 160) & (correct_RTs.index < 240)]
-    print "First quartile (n = %d): mean = %g; stddev = %g"%(len(third_quartile_RTs),
+    print "Third quartile (n = %d): mean = %g; stddev = %g"%(len(third_quartile_RTs),
                                                              third_quartile_RTs.mean(),
                                                              third_quartile_RTs.std())
 
     fourth_quartile_RTs = correct_RTs[(correct_RTs.index >= 240)]
-    print "First quartile (n = %d): mean = %g; stddev = %g"%(len(fourth_quartile_RTs),
+    print "Fourth quartile (n = %d): mean = %g; stddev = %g"%(len(fourth_quartile_RTs),
                                                              fourth_quartile_RTs.mean(),
                                                              fourth_quartile_RTs.std())
